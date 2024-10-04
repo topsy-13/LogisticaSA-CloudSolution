@@ -14,8 +14,6 @@ La empresa busca mejorar la eficiencia de las rutas de entrega utilizando algori
 - **Lambda**: Ejecución a demanda de algoritmos de optimización.
 - **Elasticache**: Aceleración de consultas geográficas.
 
-## Estructura del Proyecto
-
 
 MIT License
 
