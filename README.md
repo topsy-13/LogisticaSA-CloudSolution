@@ -1,18 +1,30 @@
-# LogisticaSA-CloudSolution
+# Logística Inteligente S.A.
 
-Este repositorio contiene la solución propuesta para el caso de uso "Logística Inteligente S.A.", una empresa ficticia dedicada a la gestión y optimización de rutas de entrega para empresas de transporte. La solución utiliza servicios de AWS como EC2, RDS, Lambda y Elasticache, junto con algoritmos de optimización desarrollados en Python y contenerizados con Docker.
+Una infraestructura computacional como servicio para la optimización de rutas
 
-## Descripción del Proyecto
+Julián Santos, Santiago Ramírez, Daniel Pombo, Nataly Díaz
 
-La empresa busca mejorar la eficiencia de las rutas de entrega utilizando algoritmos de optimización. Se ha diseñado una arquitectura en la nube basada en AWS para procesar datos de rutas, almacenar información de clientes y ejecutar algoritmos de optimización bajo demanda.
+# Introducción
 
-### Arquitectura Propuesta
+Logística Inteligente S.A. es una empresa especializada en la gestión y optimización de rutas de entrega para empresas de transporte. A través del uso de algoritmos avanzados de optimización y predicción, la compañía busca mejorar la eficiencia de las rutas de transporte de sus clientes, reduciendo costos y tiempos operativos.
 
-- **EC2**: Para procesamiento de datos de rutas.
-- **RDS**: Almacenamiento de información de clientes y rutas.
-- **Docker**: Contenerización de los modelos de optimización de rutas.
-- **Lambda**: Ejecución a demanda de algoritmos de optimización.
-- **Elasticache**: Aceleración de consultas geográficas.
+La necesidad de empresas como Logística Inteligente S.A. radica en la capacidad de mejorar las operaciones de transporte en un mercado cada vez más competitivo. Para las empresas de transporte, la optimización de rutas no solo reduce los costos de combustible y mantenimiento, sino que también mejora el tiempo de entrega, lo cual es clave para la satisfacción del cliente.
+
+El Cloud Computing, como el que ofrece AWS, trae consigo una serie de ventajas significativas para empresas como Logística Inteligente S.A. Al migrar las operaciones a la nube, la empresa puede aprovechar la escalabilidad casi ilimitada, ajustando sus recursos de procesamiento y almacenamiento en función de la demanda. Esto permite optimizar costos al pagar solo por lo que se utiliza, en lugar de mantener una infraestructura física costosa. Además, la nube proporciona alta disponibilidad y recuperación ante desastres, asegurando que los sistemas permanezcan operativos sin interrupciones críticas. Con soluciones como **Amazon EC2** para procesamiento de datos y **Amazon RDS** para la gestión de bases de datos, se garantiza una infraestructura altamente escalable y de alto rendimiento. Además, la integración de **AWS Lambda** permite ejecutar algoritmos de optimización sin necesidad de servidores dedicados, mejorando la eficiencia y reduciendo costos operativos. El uso de **Amazon S3** para realizar respaldos de datos y almacenar modelos asegura que los datos críticos de clientes y rutas estén protegidos y disponibles en caso de fallos, lo que fortalece la seguridad y la resiliencia del sistema.
+
+# Objetivos Generales
+
+Definir una infraestructura escalable y eficiente en la nube para soportar el procesamiento y análisis de datos de rutas, utilizando tecnologías de AWS.
+
+Optimizar las operaciones de entrega de transporte, reduciendo costos y tiempos mediante la implementación de algoritmos avanzados de optimización de rutas.
+
+## Objetivos Específicos
+
+1. Implementar instancias EC2 para el procesamiento de datos de rutas en tiempo real, aprovechando su capacidad escalable para manejar grandes volúmenes de información.
+2. Utilizar RDS para el almacenamiento de datos, asegurando la disponibilidad y seguridad de la información de clientes y rutas.
+3. Desarrollar modelos de optimización en Python, aprovechando las bibliotecas especializadas para la optimización y el análisis de datos geográficos.
+4. Integrar AWS Lambda para ejecutar los algoritmos de optimización de forma eficiente y a demanda, reduciendo el costo de ejecución en periodos inactivos.
+5. Implementar Amazon S3 para la realización de copias de seguridad automáticas de la base de datos y archivos críticos, asegurando la disponibilidad de los datos en caso de desastres.
 
 
 MIT License
